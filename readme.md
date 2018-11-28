@@ -2,9 +2,10 @@
 
 ## Features
 
-* Gradle
+* JDBC
 * MariaDB
 * Entity
+* Gradle
 
 ## Usage
 
