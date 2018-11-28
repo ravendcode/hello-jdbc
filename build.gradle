@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'com.github.ravendcode'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+//    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.13'
+    // https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client
+    compile group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version: '2.3.0'
+    // https://mvnrepository.com/artifact/io.github.cdimascio/java-dotenv
+    compile group: 'io.github.cdimascio', name: 'java-dotenv', version: '3.1.7'
+
+}
