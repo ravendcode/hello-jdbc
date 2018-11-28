@@ -5,6 +5,7 @@
 * JDBC
 * MariaDB
 * Entity
+* DAO
 * Gradle
 
 ## Usage
