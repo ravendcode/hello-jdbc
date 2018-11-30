@@ -12,4 +12,4 @@
 
 * Rename `dist.env` in `.env` and edit
 * Run `src/main/resources/data.sql`
-* Run `Main.class` with gradle dependencies
+* Run `com.github.ravendcode.hello.Main.java`
