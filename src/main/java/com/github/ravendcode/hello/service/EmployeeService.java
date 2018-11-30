@@ -1,14 +1,14 @@
 package com.github.ravendcode.hello.service;
 
 import com.github.ravendcode.hello.Config;
-import com.github.ravendcode.hello.dao.CrudDAO;
+import com.github.ravendcode.hello.dao.CrudDao;
 import com.github.ravendcode.hello.entity.Employee;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EmployeeService implements CrudDAO<Employee, Integer> {
+public class EmployeeService implements CrudDao<Employee, Integer> {
     private final Connection db;
 
     public EmployeeService(Config config) {
